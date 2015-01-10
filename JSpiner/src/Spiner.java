@@ -36,6 +36,7 @@ public class Spiner extends JFrame {
 		});
 
 		spinner1 = new JSpinner(new SpinnerNumberModel(1, 1, 100, 1));
+		spinner1.setLocation(200,200);
         this.getContentPane().add(spinner1);
 		
 	}
